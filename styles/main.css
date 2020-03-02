@@ -1,0 +1,361 @@
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.div1 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    padding: 1px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.LinkedIn
+{
+  position: absolute;
+  bottom: 36.5%;
+  left: 25%;
+}
+
+.logos1
+{
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+}
+
+.logos2
+{
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+}
+.description
+{
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+}
+.container
+{
+  width:100%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 65%;
+  left: 5%;
+}
+
+div.realtiveHeader
+{
+  position: relative;
+  left: 0%;
+  bottom: 0%;
+
+}
+div.H
+{
+  bottom: 100%;
+  left: 100%;
+}
+div.relativeText
+{
+  position: relative;
+  left: 0%;
+  top: 0%;
+
+}
+div.relativePics
+{
+  position: relative;
+  left: 45px;
+  top: -200px;
+}
+div.Companies
+{
+  position:relative;
+  top: -30%;
+  left: 0%;
+
+}
+div.gallery {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+div.gallery img {
+    width: 100%;
+}
+div.desc {
+    padding: -200px;
+    text-align: center;
+}
+div.descforAlpha{
+  padding: 30px;
+  text-align: center;
+}
+div.Xerox
+{
+  position:relative;
+  bottom: 300px;
+  left: -320px;
+}
+div.Advantage
+{
+  position:relative;
+  bottom: -7px;
+  right: -50px;
+}
+div.Alpha
+{
+  position: relative;
+  bottom: -19px;
+  left: 100px;
+}
+div.Drop
+{
+  position: relative;
+  bottom: 400px;
+  left: -110px;
+}
+#mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 250px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    right: 80px;
+}
+
+#News {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#Projects {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#Resume {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+div.sidebar
+{
+  position:relative;
+  bottom: 30px;
+  left: 450px;
+}
+div.CountriesHeader
+{
+
+  /*bottom: 150px;*/
+  bottom: 100%;
+}
+div.Row
+{
+  position: relative;
+  left: -150px;
+  bottom: 150px;
+}
+div.Salvador
+{
+  position: relative;
+  left: 400px;
+}
+.avatar {
+    display: block;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: 3px solid #000000  ;
+}
+
+div.rowforlanguages
+{
+  position: relative;
+  left: 55px;
+}
+div.secondrowforlanguages
+{
+  position: relative;
+  left: 55px;
+  bottom: -30px;
+}
+div.C
+{
+  position: relative;
+  left: 200px;
+  bottom: 40px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container1 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff0000 ;
+  overflow: hidden;
+  width: 250px;
+  height: 200px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff0000 ;
+  overflow: hidden;
+  width: 250px;
+  height: 200px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container1:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.container1:hover .overlay1 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/*--- Media Queries --*/
+/*Full width or desktops/laptops*/
+@media screen and (max-width: 900px) {
+  .content {
+    padding-bottom: 30%;
+  }
+  #main_head {
+    font-size: 450%; 
+  }
+  .section_five iframe {
+    height: 1000px;
+    width: 1000px;
+  }
+}
+/*Medium width or tablets*/
+@media screen and (max-width: 768px) {
+  .content {
+    padding-bottom: 40%;
+  }
+  #main_head {
+    font-size: 300%; 
+  }
+  .section_five iframe {
+    height: 500px;
+    width: 500px;
+  }
+
+}
+/*Small width or mobile phones*/
+@media screen and (max-width: 480px) {
+  .content {
+    padding-bottom: 50%;
+  }
+  #main_head {
+    font-size: 250%; 
+  }
+  #rt_variety {
+    font-size: 10px; 
+    width:90%; 
+    padding: 10px;
+  }
+  #lt_variety {
+    font-size: 10px; 
+    width:90%; 
+    padding: 10px;
+
+  }
+  .section_five iframe {
+    height: 200px;
+    width: 200px;
+  }
+
