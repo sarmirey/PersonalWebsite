@@ -305,57 +305,14 @@ div.C
   text-align: center;
 }
 
-
-
-/*--- Media Queries --*/
-/*Full width or desktops/laptops*/
-@media screen and (max-width: 900px) {
-  .content {
-    padding-bottom: 30%;
-  }
-  #main_head {
-    font-size: 450%; 
-  }
-  .section_five iframe {
-    height: 1000px;
-    width: 1000px;
-  }
+hr.new1 {
+  border: 4px solid black;
+  border-radius: 2px;
 }
-/*Medium width or tablets*/
-@media screen and (max-width: 768px) {
-  .content {
-    padding-bottom: 40%;
-  }
-  #main_head {
-    font-size: 300%; 
-  }
-  .section_five iframe {
-    height: 500px;
-    width: 500px;
-  }
-
+hr.new2 {
+  border: 2px solid black;
+  border-radius: 2px;
 }
-/*Small width or mobile phones*/
-@media screen and (max-width: 480px) {
-  .content {
-    padding-bottom: 50%;
-  }
-  #main_head {
-    font-size: 250%; 
-  }
-  #rt_variety {
-    font-size: 10px; 
-    width:90%; 
-    padding: 10px;
-  }
-  #lt_variety {
-    font-size: 10px; 
-    width:90%; 
-    padding: 10px;
 
-  }
-  .section_five iframe {
-    height: 200px;
-    width: 200px;
-  }
+
 
