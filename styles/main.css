@@ -15,12 +15,14 @@ body {font-family: "Lato", sans-serif}
 .LinkedIn
 {
   position: absolute;
+  transform: translate(1%, -3%);
   bottom: 36.5%;
   left: 25%;
 }
 
 .logos1
 {
+  transform: translate(1%, -3%);
   position: absolute;
   bottom: 40%;
   left: 5%;
@@ -28,6 +30,7 @@ body {font-family: "Lato", sans-serif}
 
 .logos2
 {
+  transform: translate(1%, -3%);
   position: absolute;
   bottom: 40%;
   left: 15%;
@@ -35,7 +38,7 @@ body {font-family: "Lato", sans-serif}
 .description
 {
   position: absolute;
-  bottom: 60%;
+  bottom: 65%;
   left: 5%;
 }
 .container
@@ -44,7 +47,7 @@ body {font-family: "Lato", sans-serif}
 }
 .bottom-left {
   position: absolute;
-  bottom: 65%;
+  bottom: 70%;
   left: 5%;
 }
 
@@ -189,19 +192,17 @@ div.Salvador
 div.rowforlanguages
 {
   position: relative;
-  left: 55px;
+  
 }
 div.secondrowforlanguages
 {
   position: relative;
-  left: 55px;
-  bottom: -30px;
+
 }
 div.C
 {
   position: relative;
-  left: 200px;
-  bottom: 40px;
+
 }
 
 .image {
@@ -240,7 +241,7 @@ div.C
 }
 .container1 {
   position: relative;
-  width: 100%;
+  left:30%;
 }
 
 .image {
@@ -305,14 +306,56 @@ div.C
   text-align: center;
 }
 
-hr.new1 {
-  border: 4px solid black;
-  border-radius: 2px;
+
+
+/*--- Media Queries --*/
+/*Full width or desktops/laptops*/
+@media screen and (max-width: 900px) {
+  .content {
+    padding-bottom: 30%;
+  }
+  #main_head {
+    font-size: 450%; 
+  }
+  .section_five iframe {
+    height: 1000px;
+    width: 1000px;
+  }
 }
-hr.new2 {
-  border: 2px solid black;
-  border-radius: 2px;
+/*Medium width or tablets*/
+@media screen and (max-width: 768px) {
+  .content {
+    padding-bottom: 40%;
+  }
+  #main_head {
+    font-size: 300%; 
+  }
+  .section_five iframe {
+    height: 500px;
+    width: 500px;
+  }
+
 }
+/*Small width or mobile phones*/
+@media screen and (max-width: 480px) {
+  .content {
+    padding-bottom: 50%;
+  }
+  #main_head {
+    font-size: 250%; 
+  }
+  #rt_variety {
+    font-size: 10px; 
+    width:90%; 
+    padding: 10px;
+  }
+  #lt_variety {
+    font-size: 10px; 
+    width:90%; 
+    padding: 10px;
 
-
-
+  }
+  .section_five iframe {
+    height: 200px;
+    width: 200px;
+  }
