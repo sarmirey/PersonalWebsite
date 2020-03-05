@@ -242,9 +242,9 @@ div.C
 .container1 {
   position: relative;
   left: 40%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -50px;
+  margin-left: -40px;
+  top: 40%;
+  margin-top: -40px;
 }
 
 .image {
