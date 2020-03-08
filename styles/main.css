@@ -38,7 +38,7 @@ body {font-family: "Lato", sans-serif}
 .description
 {
   position: absolute;
-  bottom: 65%;
+  bottom: 55%;
   left: 5%;
 }
 .container
@@ -47,7 +47,7 @@ body {font-family: "Lato", sans-serif}
 }
 .bottom-left {
   position: absolute;
-  bottom: 70%;
+  bottom: 60%;
   left: 5%;
 }
 
@@ -242,6 +242,7 @@ div.C
 .container1 {
   position: relative;
   left:25%;
+  grid-gap: 20%;
 }
 
 .image {
