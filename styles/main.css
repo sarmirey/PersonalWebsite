@@ -362,6 +362,12 @@ div.C
   #adjust1
   {
     position: absolute;
+    bottom: 20%;
+    left: 5%;
+  }
+  #adjust2
+  {
+    position: absolute;
     bottom: 10%;
     left: 5%;
   }
