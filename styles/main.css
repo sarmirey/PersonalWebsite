@@ -367,7 +367,7 @@ div.C
   }
   #adjust2
   {
-    position: absolute;
+    position: fixed;
     bottom: 20%;
     left: 5%;
   }
