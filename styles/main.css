@@ -35,20 +35,9 @@ body {font-family: "Lato", sans-serif}
   bottom: 40%;
   left: 15%;
 }
-.description
-{
-  position: absolute;
-  bottom: 55%;
-  left: 5%;
-}
 .container
 {
   width:100%;
-}
-.bottom-left {
-  position: absolute;
-  bottom: 60%;
-  left: 5%;
 }
 
 div.realtiveHeader
@@ -309,14 +298,29 @@ div.C
 
 
 
+
+
+
 /*--- Media Queries --*/
 /*Full width or desktops/laptops*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1440px) {
   .content {
     padding-bottom: 30%;
   }
   #main_head {
     font-size: 450%; 
+  }
+  #adjust1
+  {
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+  }
+  #adjust2
+  {
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
   }
   .section_five iframe {
     height: 1000px;
@@ -327,6 +331,18 @@ div.C
 @media screen and (max-width: 768px) {
   .content {
     padding-bottom: 40%;
+  }
+  #adjust1
+  {
+    position: absolute;
+    bottom: 65%;
+    left: 5%;
+  }
+  #adjust2
+  {
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
   }
   #main_head {
     font-size: 300%; 
@@ -341,6 +357,12 @@ div.C
 @media screen and (max-width: 480px) {
   .content {
     padding-bottom: 50%;
+  }
+  #adjust1
+  {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
   }
   #main_head {
     font-size: 250%; 
@@ -360,3 +382,4 @@ div.C
     height: 200px;
     width: 200px;
   }
+}
