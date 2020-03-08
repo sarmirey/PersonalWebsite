@@ -336,13 +336,13 @@ div.C
   #adjust1
   {
     position: absolute;
-    bottom: 65%;
+    bottom: 80%;
     left: 5%;
   }
   #adjust2
   {
     position: absolute;
-    bottom: 60%;
+    bottom: 70%;
     left: 5%;
   }
   #main_head {
@@ -360,6 +360,12 @@ div.C
     padding-bottom: 50%;
   }
   #adjust1
+  {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+  }
+  #adjust2
   {
     position: absolute;
     bottom: 10%;
