@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Reynerio Sarmiento's WebPage</title>
+
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -8,8 +10,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles/main.css">
+<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/649ed3c85b.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
 
@@ -28,41 +33,56 @@
 <div class="w3-black" id="Main">
  <div class="container">
 
-  <img src="./Images/professional_pic.jpg" width= "100%"  alt="Profile Pic">      
+  <img src="./Images/professional_pic.jpg" width= "100%" height= "auto"  alt="Profile Pic">      
       <div class="bottom-left">
-        <h1>  Reynerio Sarmiento Jr  </h1>
+        <h1 style = "font-size: 54m; font-family: 'Exo 2', sans-serif;">   Reynerio Sarmiento Jr  </h1>
 
       </div>
       <div class = "description">
-      <h2> Computer Science Major at UMB
+      <h2 style = "font-size: 2em; font-family: 'Exo 2', sans-serif;"> Computer Science Major at UMB
       </h2>
       </div>
 
-      <!--
-      <div class = "logos1">
-        <a href="https://www.cs.umb.edu/"> <img src="Images/umb.png" style="max-width:30%;height:auto;padding:1%"> </img></a>
-      </div>
-       <div class = "logos2">
-        <a href="https://hackdiversity.com/""> <img src="Images/hack_diversity.jpg" style="max-width:15%; height:auto; padding:1%"> </img></a>
-      </div>
-        <div class = "LinkedIn">
-        <a href="https://www.linkedin.com/in/reynerio-s-5b5876106/"> <img src="Images/linkedin.png" style="max-width:30%; height:auto ; padding:1%"> </img> </a>
-        -->
-      </div>
+      <div class="row secondrowforlanguages">
+          <div class="col-lg-4 col-md-3 col-xs-10">
 
+             <p style="font-family: 'Exo 2', sans-serif;"> Get to know more about me: </p>
+              <span style="font-size: 5rem;">
+                  <a href="https://medium.com/hack-diversity-movement/cohort-stories-meet-reynerio-fa1a543ccc2f" title="Hack Diversity Medium" style = "color:#41B783"> <i class="fas fa-newspaper"></i> </a>
+              </span>
 
+              <div class="col-lg-0 col-md-3 col-xs-3">
+                  <span style="font-size: 5rem;">
+                      <a href="https://www.linkedin.com/in/reynerio-s-5b5876106/" title="LinkedIn" style="color:	#0274B3"><i class="fab fa-linkedin"></i></a>
+                  </span>
+              </div>
+              <div class="col-lg-0 col-md-3 col-xs-3">
+                  <span style="font-size: 5rem;">
+                      <a href="./Resume.pdf" title="Resume" style ="color:white" download> <i class="fas fa-file"></i></a>
+                  </span>
+              </div>
+              <div class="col-lg-0 col-md-3 col-xs-3">
+                  <span style="font-size: 5rem; color:#E54D26">
+                      <a href="https://github.com/sarmirey" title="Github Account" style="color:white"> <i class="fab fa-github"></i></a>
+                  </span>
+              </div>
+          </div>
+
+      </div>
+      </div>
  </div>
-  </div>
+  
  
 
 
 
-<div style = "background-color:lightblue" id = "About">
+<div style = "background-color:#ffd381" class = "solid" id = "About">
     <div class="container">
+      <span class = "border"> </span>
         <h1> <center>Activity</center></h1>
         
         <!-- Left-aligned media object -->
-        <hr class ="new1"
+        <hr class ="new1">
         <div class="media">
           <div class="media-left">
             <img src="./Images/xerox.png" class="media-object" style="width:100px">
@@ -78,8 +98,8 @@
         <!-- Right-aligned media object -->
         <div class="media">
           <div class="media-body">
-              <h3 align ="right">Reynerio starts studying computer science at the University of Massachussets of Boston</h3>
-              <p align ="right"> <font size = "4">(September 2016 - Present) </font></p>
+              <h3 align="right">Reynerio starts studying computer science at the University of Massachussets of Boston</h3>
+              <p align="right"> <fontsize = "4">(September 2016 - Present) </font></p>
           </div>
           <div class="media-right">
             <img src="./Images/umb.png" class="media-object" style="width:100px">
@@ -136,66 +156,76 @@
                 <img src="./Images/hack_diversity.jpg" class="media-object" style="width:100px">
               </div>
               <div class="media-body">
-                <h3>Reynerio gets selected to be part of the Alumni Board as a Tech Co-Lead at Hack Diversity</h3>
+                <h3 style= "font-family: 'Exo 2', sans-serif;">Reynerio gets selected to be part of the Alumni Board as a Tech Co-Lead at Hack Diversity</h3>
                 <p> <font size = "4">(January 2020 - present) </font> </p>
               </div>
             </div>
             <hr class ="new2">
+          
 
 </div>
 
 
-<div style = "background-color:white" id = "Skills">
+<div style = "background-color:#FFD9A8" id = "Skills">
 
 
   <div class="modal-body">
-          <header> <center> <font size = "50%"> Coding Languages </font> </center> </header>
-        </div>
+          <header> <center> <font style = "font-family: 'Exo 2', sans-serif;" size = "50%"> Coding Languages </font> </center> </header>
+        
         <center>
       <div class="row rowforlanguages">
           <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <div class="container">           
-                  <img class = "avatar" img src="./Images/Code/java.png" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
+              <div class="container">  
+                <span style="font-size: 10rem; color:red">
+                  <i class="fab fa-java"></i>
+                </span>
+                <p style = "font-size: 1.5em;"> Java </p>
               </div>
           </div>
         <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <div class="container">           
-                  <img class = "avatar" img src="./Images/Code/SQL.png" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
-              </div>
+              <span style="font-size: 10rem; color:#F96A0E">
+                <i class="fab fa-python"></i>
+              </span>
+              <p style = "font-size: 1.5em;"> Python </p>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-            <div class="container">           
-                <img class = "avatar" img src="./Images/Code/Python.jpg" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
-            </div>
+            <span style="font-size: 10rem; color:#28ADCC;">
+                <i class="fas fa-database"></i>
+            </span>
+            <p style = "font-size: 1.5em;"> SQL </p>
+            
         </div>
       </center>
+      <br>
+      <br>
       <center>
       <div class="row secondrowforlanguages">
           <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <div class="container">           
-                  <img class = "avatar" img src="./Images/vue.png" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
-              </div>
+              <span style="font-size: 10rem; color:#41B783">
+                  <i class="fab fa-vuejs"></i>
+              </span>
+              <p style = "font-size: 1.5em; font-family: 'Exo 2', sans-serif;"> Vue JS </p>
           </div>
         <div class="col-lg-0 col-md-4 col-xs-4 thumb">
-              <div class="container">           
-                  <img class = "avatar" img src="./Images/Code/HTML.png" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
-              </div>
+            <span style="font-size: 10rem; color:#E54D26">
+                <i class="fab fa-html5"></i>
+            </span>
+            <p style = "font-size: 1.5em; font-family: 'Exo 2', sans-serif;"> HTML5 </p>
         </div>
         <div class="col-lg-0 col-md-4 col-xs-4 thumb">
-            <div class="container">           
-                <img class = "avatar" img src="./Images/Code/CSS.png" class="img-circle" alt="Cinque Terre" width="110" height="110"> 
-            </div>
+            <span style="font-size: 10rem; color:	#1385C1">
+                <i class="fab fa-css3-alt"></i>
+            </span>
+            <p style = "font-size: 1.5em;"> CSS </p>
         </div>
         </div>
       </center>
-          <br> </br>
-        <header> <center> <font size = "50%"> Resume </font> </center> </header>
-          <center><h4> Click Link to Upload: <a download href="Resume.pdf" target="_blank"> Download Resume </a> <button type="button" class="btn btn-success"> Up to Date!</button> </center>
+    </div>
     </div>
 
 
 
-   <div style = "background-color:orange" id = "Projects">
+   <div style = "background-color:#ffeece" id = "Projects">
     <div class="modal-body">
          <header> <center> <font size = "50%"> Projects </font> </center> </header>
           <h4> <center> <u> Below is a list of projects I have worked on and a brief description </u> </center></h4>
