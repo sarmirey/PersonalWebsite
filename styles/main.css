@@ -362,13 +362,13 @@ div.C
   #adjust1
   {
     position: absolute;
-    bottom: 20%;
+    bottom: 0%;
     left: 5%;
   }
   #adjust2
   {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 5%;
   }
   #main_head {
